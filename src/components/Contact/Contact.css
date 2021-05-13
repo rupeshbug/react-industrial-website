@@ -1,0 +1,104 @@
+.contact{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+}
+
+.contact__info{
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  gap: 3rem;
+  background-image: url('../../images/contact.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 90vh;
+  color: #fafafa;
+}
+
+.contact__info >  div{
+  margin-left: 3rem;
+}
+
+.address__head, .phone__head, .support__head{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contactUs{
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0rem 2rem;
+}
+
+.contactUs > h1{
+  letter-spacing: 1px;
+  font-family: 'Satisfy', cursive;
+}
+
+.contactUs > div{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input{
+  width: 280px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+textarea{
+  width: 280px;
+  height: 20vh;
+  resize: none;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 8px;
+}
+
+.send__btn{
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  color: #fafafa;
+  background-color: #153E50;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.send__btn:hover{
+  background-color: #255a70;
+  transition: 0.2s ease;
+}
+
+@media screen and (max-width: 760px){
+
+  .contact{
+    flex-direction: column;
+  }
+
+  .contact__info{
+    width: 100%;
+    padding: 4rem 2rem;
+  }
+
+  .contactUs{
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,43 @@
+.each-slide div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide__contents{
+  color: #fafafa;
+  font-size: 2rem;
+  margin-left: 3rem;
+  font-weight: 600;
+  padding: 0 1rem;
+}
+
+.carousel__btn{
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  background-color:#153e50;
+  color: #fafafa;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.carousel__btn:hover{
+  background-color: #e9c62c;
+  color: #000a12;
+  transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 760px){
+
+  .slide__contents{
+    font-size: 1.5rem;
+  }
+
+}

@@ -1,0 +1,28 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.card__img{
+  flex: 0 0 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card__content{
+  background-color: #fafafa;
+  padding: 2rem;
+  color: #000a12;
+}
+
+.card__content > h3{
+  margin-bottom: 10px;
+}
+
+.card__content > p{
+  font-size: 1.1rem;;
+}
+

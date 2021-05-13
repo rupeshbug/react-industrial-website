@@ -1,0 +1,96 @@
+.navbar{
+  background-color:#000a12;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav__brand{
+  flex: 0.2;
+  margin-left: 1rem;
+  letter-spacing: 1px;
+}
+
+.nav__brand > h1 > span{
+  color: #fdd835;
+}
+
+.nav__items{
+  flex: 0.4;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav__link > a{
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 8px;
+}
+
+.navInfo{
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 1rem;
+}
+
+.navInfo__contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.navInfo__address{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+i{
+  color: #fdd835;
+  margin-right: 10px;
+}
+
+.link:hover{
+  border-bottom: 3px solid #fdd835;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  transition: 0.1s ease-in;
+}
+
+.nav__menu{
+  display: none;
+}
+
+@media screen and (max-width: 900px){
+
+  .navbar{
+    flex-direction: column;
+  }
+
+  .nav__brand{
+    flex: 1;
+    margin-bottom: 10px;
+  }
+
+  .nav__items{
+    width: 100%;
+    margin-bottom: 1.2rem;
+  }
+
+  .navInfo{
+    width: 80%;
+  }
+
+}

@@ -1,0 +1,56 @@
+.head{
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  font-family: 'Satisfy', cursive;
+}
+
+.each-slides{
+  background-color: #102027;
+  padding: 5rem 2rem;
+}
+
+.each-slides div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fafafa;
+}
+
+.client__info{
+  padding: 1rem;
+}
+
+.client__info > span{
+  font-size: 1.5rem;
+}
+
+.client{
+  margin-top: 2rem;
+}
+
+.client > img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 760px){
+
+  .each-slides{
+    padding: 4rem 2rem;
+  }
+
+  .client__info > span{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+
+  .client__info{
+    padding-right: 10px;
+  }
+
+}
