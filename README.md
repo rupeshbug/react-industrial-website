@@ -1,2 +1,2 @@
 # industrial-website
- template for industrial website
+ A Template For Industrial Website
