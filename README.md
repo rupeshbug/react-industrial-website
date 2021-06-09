@@ -1,2 +1,2 @@
 # industrial-website
- A Template For Industrial Website
+ A Template For Industrial Website Made with ReactJS
